@@ -14,8 +14,5 @@ To change the configurations that are sent to the switches, modify the variable 
 
 Example:
 
-`` cfg_commands = [
-    'this is config line 1'
-    'this is config line 2',
-    ]
-    ``
+``` cfg_commands = ['this is config line 1', 
+'this is config line 2',]```
