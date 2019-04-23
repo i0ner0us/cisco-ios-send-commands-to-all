@@ -11,7 +11,7 @@ Python 3 with the following modules:
 ## Using the script
 
 Usage:
-``python3 main.py <username> <password> <enable_secret>```
+``python3 main.py <username> <password> <enable_secret>``
 
 To change the configurations that are sent to the switches, modify the variable `cfg_commands` in the format of a list. Each item in the list is a line of commands to inserted into the switch.
 
