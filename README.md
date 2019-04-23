@@ -3,10 +3,10 @@ Send commands to every cisco switch in your inventory.txt file
 
 ## Requirements
 
-> Python 3 with the following modules:
->> Nemiko
->> Threading
->> Queue
+Python 3 with the following modules:
+1. Nemiko
+2. Threading
+3. Queue
 
 ## Using the script
 
@@ -14,7 +14,8 @@ To change the configurations that are sent to the switches, modify the variable 
 
 Example:
 
-> `` cfg_commands = [
->   'this is config line 1'
+`` cfg_commands = [
+    'this is config line 1'
     'this is config line 2',
     ]
+    ``
